@@ -7,7 +7,7 @@ namespace HalcyonFrameratePatcher
 {
     class PatcherProgram
     {
-        const string FILE_PATH_DEFAULT = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Halcyon 6 Starbase Commander\\H6_Data\\Managed\\Assembly-CSharp.dll";
+        const string FILE_PATH_DEFAULT = @"C:\Program Files (x86)\Steam\steamapps\common\Halcyon 6 Starbase Commander\H6_Data\Managed\Assembly-CSharp.dll";
         static string filePath;
 
         static void Main(string[] args)
